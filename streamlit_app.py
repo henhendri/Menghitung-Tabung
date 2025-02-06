@@ -3,8 +3,8 @@ import math, time
 import random
 
 st.title("Menghitung total belanjaan dan kembalian di toko roti.")
-  harga_roti_tawar = 12000
-  harga_kue_bolu = 25000
+  harga_roti_tawar = "12000"
+  harga_kue_bolu = "25000"
   jumlah_roti_tawar = st.number_input("Masukan Jumlah roti ",0)
   jumlah_kue_bolu = st.number_input("Masukan Jumlah kue ",0)
   uang_bayar = st.number_input("Masukan Jumlah bayar ",0)
