@@ -1,5 +1,22 @@
 import streamlit as st
 import math, time
+import random
+
+def toko_roti():
+  """Menghitung total belanjaan dan kembalian di toko roti."""
+  harga_roti_tawar = 12000
+  harga_kue_bolu = 25000
+  jumlah_roti_tawar = 3
+  jumlah_kue_bolu = 2
+  uang_bayar = 100000
+
+  total_harga = (harga_roti_tawar * jumlah_roti_tawar) + (harga_kue_bolu * jumlah_kue_bolu)
+  kembalian = uang_bayar - total_harga
+
+  print("Total belanjaan:", total_harga)
+  print("Kembalian:", kembalian)
+
+
 
 st.title("Menghitung :blue[Volume Tabung] :rocket:")
 
