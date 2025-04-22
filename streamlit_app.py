@@ -16,6 +16,20 @@ if st.button("Hitung Volume", type="primary"):
   v = math.pi*(r**2)*t
   st.success(f'Volume tabung adalah {v:.2f}')
 
+#menghitung volume tabung
+st.title("Menghitung :blue[Luas Persegi] :rocket:")
+
+s = st.number_input("Masukan Nilai Sisi (cm): ",0)
+
+if st.button("Hitung Luas", type="primary"):
+  loading = st.progress(0)
+  for i in range(100):
+    time.sleep(0.01)
+    loading.progress(i+1)
+    
+  l = s*s
+  st.success(f'Luas Persegi adalah {s:.2f}')
+
 
 
 
