@@ -28,7 +28,7 @@ if st.button("Hitung Luas", type="primary"):
     loading.progress(i+1)
     
   l = s*s
-  st.success(f'Luas Persegi adalah {s:.2f}')
+  st.success(f'Luas Persegi adalah {s}')
 
 
 
